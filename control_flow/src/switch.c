@@ -45,7 +45,7 @@ int main( int argc, char* argv[] ) {
         case 1:
             printf("numero is 1\n");
         case 2:
-            printf("numero s between 0 e 2\n"); 
+            printf("numero is between 0 e 2\n"); 
             break;
         case 5:
             printf("numero is equal to 5\n");
