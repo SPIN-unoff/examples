@@ -10,4 +10,5 @@ add_executable( structures src/structures.c )
 add_executable( unions src/unions.c )
 add_executable( enum src/enum.c )
 add_executable( bit_fields src/bit_fields.c )
+add_executable( char src/char.c )
 
