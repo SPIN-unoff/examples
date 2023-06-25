@@ -7,4 +7,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 add_executable( integer src/integer.c )
 add_executable( floating_point src/floating_point.c )
 add_executable( structures src/structures.c )
+add_executable( unions src/unions.c )
 
