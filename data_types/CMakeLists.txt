@@ -8,4 +8,5 @@ add_executable( integer src/integer.c )
 add_executable( floating_point src/floating_point.c )
 add_executable( structures src/structures.c )
 add_executable( unions src/unions.c )
+add_executable( enum src/enum.c )
 
