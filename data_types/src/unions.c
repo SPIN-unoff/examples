@@ -40,7 +40,7 @@ int main() {
         instance.as_string[0] = 'C';
         instance.as_string[1] = 'I';
         instance.as_string[2] = 'A';
-        instance.as_string[3] = 'O';
+        instance.as_string[3] = '\0';
         printf("instance:\n"); print_my_union(&instance);
 
         instance.as_int = 1500;
