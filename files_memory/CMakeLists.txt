@@ -14,3 +14,7 @@ target_include_directories(binary_file PRIVATE include)
 add_executable(text_file src/text_file.c)
 target_link_libraries(text_file PRIVATE exe_data)
 target_include_directories(text_file PRIVATE include)
+
+add_executable(malloc src/malloc.c)
+add_executable(mem src/mem.c)
+
