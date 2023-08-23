@@ -18,4 +18,6 @@ struct employee {
 
 void employee_printf(FILE *stream, const struct employee *const data);
 
+static const char *role_names[] = {"CEO","ENGINEER","ADMINISTRATION"};
+
 #endif

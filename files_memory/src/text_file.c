@@ -3,8 +3,6 @@
 #include <string.h>
 #include <data_lib.h>
 
-extern char *role_names[];
-
 int main( int argc, char *argv[] ) {
     FILE *fptr;
     /**

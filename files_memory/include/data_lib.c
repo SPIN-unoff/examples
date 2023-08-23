@@ -1,7 +1,5 @@
 #include "data_lib.h"
 
-const char *role_names[] = {"CEO","ENGINEER","ADMINISTRATION"};
-
 void employee_printf(FILE *stream, const struct employee *const data) {
     fprintf(stream, "Employee:\n");
     fprintf(stream, "\t- id: 0x%.4X\n", data->_id);
